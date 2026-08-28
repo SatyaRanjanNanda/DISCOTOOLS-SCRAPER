@@ -79,6 +79,22 @@ You can apply a brand new gradient to your locally downloaded icons in milliseco
 
 ---
 
+## // CONVERTING FORMATS
+
+If you want to use these icons outside of the web (like uploading them to Discord), you probably need them in a standard image format like **PNG**, **JPG**, or **WEBP**.
+
+I've included a powerful conversion script that will handle this automatically!
+
+1. Open your terminal and run:
+   ```bash
+   node convert.js
+   ```
+2. The script will ask you which format you want (`png`, `jpg`, or `webp`).
+3. It will ask you what size you want them (e.g. `512` for 512x512 pixels).
+4. **Done:** It will batch-convert all 300+ icons and place them in a new `converted_icons/` folder!
+
+---
+
 <div align="center">
   <i>Created for Discord Server Enthusiasts</i>
 </div>
